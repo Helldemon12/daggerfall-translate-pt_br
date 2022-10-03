@@ -11,23 +11,23 @@ DisplayName: Contraband Trade
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                  If you want work, I am looking for
-<ce>                  someone to take a special _item_ to
-<ce>                  an acquaintance of mine. The reward
-<ce>                 will be extremely liberal. Interested?
+<ce>                  Se você quer trabalho, estou buscando
+<ce>                  alguém para levar um special _item_ a
+<ce>                   um conhecido meu. A recompensa
+<ce>                será extremamente generosa. Interessado?
 
 RefuseQuest:  [1001]
-<ce>              Really? Too busy, perhaps. That is a shame.
+<ce>              Nossa! Muito ocupado, talvez. Que grande pena.
 
 AcceptQuest:  [1002]
-<ce>                     Excellent. Here's the _item_.
-<ce>                    Now, _contact_ needs to have it
-<ce>                   in ___contact_ in =queston_ days.
-<ce>               That ought to be just enough time, I hope.
-<ce>                    You will recognize _contact_ --
-<ce>                  go to a place called __contact_ and
-<ce>                       just look for a =contact_.
-<ce>                        Good luck and thank you.
+<ce>                     Excelente. Eis o _item_.
+<ce>                    Agora, _contact_ precisa tê-lo
+<ce>                   em ___contact_ em =queston_ dias.
+<ce>               Isto deve ser justo o tempo necessário, espero.
+<ce>                    Você reconhecerá o _contact_ --
+<ce>                  vá a um lugar chamado __contact_ e
+<ce>                       procure por =contact_.
+<ce>                        Boa sorte e obrigado.
 
 QuestFail:  [1003]
 <ce>             %pcf, you had better get busy with our little
