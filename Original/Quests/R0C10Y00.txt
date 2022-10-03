@@ -11,102 +11,102 @@ DisplayName: Jewel Smuggling
 QRC:
 
 QuestorOffer:  [1000]
-<ce>             If you are available for hire, I need someone
-<ce>            reliable to carry out a certain, covert mission.
-<ce>            It might be rather time-consuming, but I assure
-<ce>             you that you will be suitably compensated. Are
-<ce>                            you interested?
+<ce>             Se você busca trabalho, Eu preciso de alguém
+<ce>            confiável para realizar uma certa missão furtiva.
+<ce>            Ela pode ser um tanto demorada, mas eu lhe garanto
+<ce>             que você será apropriadamente compensado. 
+<ce>                            Você está interessado?
 
 RefuseQuest:  [1001]
-<ce>              Really? Too busy, perhaps. That is a shame.
+<ce>              Sério? Deveras ocupado, talvez. Que pena.
 
 AcceptQuest:  [1002]
-<ce>            Very good. I'm giving you an emerald for you to
-<ce>                       give my contact, _npc1_ of
-<ce>                    ___npc1_.  %g will be waiting in
-<ce>                      __npc1_.  The item needs to
-<ce>               be there in =1stparton_ days. That's very
-<ce>                important. Once you've made it that far,
-<ce>                        _npc1_ will have further
-<ce>            instructions. I am counting on your discretion,
-<ce>                     %pcf, and you will be watched.
-<ce>                        Good luck and thank you.
+<ce>            Muito bem. Estou lhe dando uma esmeralda para que
+<ce>                       você dê ao meu contato, _npc1_ de
+<ce>                    ___npc1_.  %g estará esperando em
+<ce>                      __npc1_.  O item precisa estar 
+<ce>               lá em  =1stparton_ dias. Isto é muito 
+<ce>                importante. Uma vez que você chegue a este ponto,
+<ce>                        _npc1_ lhe dará mais
+<ce>            instruções. Eu estou contando com sua discrição,
+<ce>                     %pcf, e você será observado.
+<ce>                        Boa sorte e obrigado.
 
 QuestFail:  [1003]
-<ce>           I don't believe we have anything else to discuss
-<ce>                               right now.
+<ce>           Não creio que tenhamos nada mais para discutir
+<ce>                               agora.
                                      <--->
-<ce>                            Do I know you?
+<ce>                            Nos conhecemos?
 
 QuestComplete:  [1004]
-<ce>                   Ah, good to see you %pcf. And the
-<ce>          _item2_ too. Excellent. And here is a _reward_ gold
-<ce>           reward for your effort and, I might add, for your
-<ce>              discretion. Your name will not be forgotten.
+<ce>                   Ah, quem bom te ver %pcf. e o 
+<ce>          _item2_ também. Excelente. e aqui  _reward_ de ouro
+<ce>           como recompensa pelo seu esforço e, permita-me adicionar,
+<ce>              por sua discrição. Seu nome não será esquecido.
 
 RumorsDuringQuest:  [1005]
-<ce>       _questgiver_ is still in the smuggling business, I hear.
+<ce>       _questgiver_ ainda está trabalhando com contrabando, ouvi dizer.
                                      <--->
-<ce>      There's been an extraordinary increase in smuggling lately.
+<ce>      Houve um aumento extraordinário na quantidade de contrabando ultimamente.
 
 RumorsPostfailure:  [1006]
-<ce>      I hear _questgiver_ is mad as hell at some %ra adventurer.
+<ce>      Ouvi dizer que _questgiver_ está com grande ódio do %ra aventureiro.
 
 RumorsPostsuccess:  [1007]
-<ce>     No one knows who the kingpin is behind the _item2_ smuggling.
+<ce>    Ninguém sabe quem foi o gênio do mal por trás  do contrabando do _item2_ .
 
 QuestorPostsuccess:  [1008]
-<ce>            Ah, my occasional smuggler. How may I help you?
+<ce>            Ah, meu contrabandista ocasional. Como o posso ajudar?
                                      <--->
-<ce>       Hello again. I'm afraid I have no more deliveries needed.
+<ce>       Olá de novo. Infelizmente não tenho mais trabalhos.
 
 QuestorPostfailure:  [1009]
-<ce>                Crawling back to apologize for failing
-<ce>                 that mission, eh? Well, it's too late.
+<ce>                Se arrastando de volta para se desculpar
+<ce>                 pela missão, não? Bom, é tarde demais.
                                      <--->
-<ce>                       You're the %ra who failed
-<ce>                   that delivery mission, aren't you?
-<ce>                            Go to Oblivion.
+<ce>                       Você é o %ra que fracassou
+<ce>                   naquela missão, não é?
+<ce>                            Vá para o Oblivion.
 
 QuestLogEntry:  [1010]
-<ce>                Ah good. The last carrier _questgiver_
-<ce>           hired never found me and we had to hunt him down.
-<ce>             Most unpleasant.  Here's the _item2_. It goes
-<ce>                         to _npc2_, this =npc2_
-<ce>                         in ___npc2_. You need
-<ce>             to get it there in less than =2ndparton_ days.
-<ce>                            Good luck, %pcf.
+<ce>                Que beleza. o último entregador que _questgiver_
+<ce>           contratou nunca me encontrou e nos tivemos que eliminá-lo.
+<ce>             Bem desagradável.  Eis o  _item2_. É 
+<ce>                         para _npc2_, este =npc2_
+<ce>                         está em ___npc2_. Você precisa 
+<ce>             chegar lá em menos de =2ndparton_ dias.
+<ce>                           Boa Sorte, %pcf.
 
 Message:  1011
 %qdt:
- _questgiver_ of __questgiver_
- in ___questgiver_ has sent me to
- __npc1_ in ___npc1_
- to deliver an emerald to _npc1_.
- I have =1stparton_ days to accomplish this.
- Once there, I may be given further instructions.
+ _questgiver_ de __questgiver_
+ em ___questgiver_ me enviou para
+ __npc1_ em ___npc1_
+ para entregar a esmeralda a _npc1_.
+ Eu tenho =1stparton_ dias para conseguir isto.
+ Uma vez lá, Eu posso receber mais instruções.
 
 Message:  1012
 %qdt:
- _npc1_ sent me
- on to ___npc2_ with a _item2_
- to bring to _npc2_ in a place
- called __npc2_. _npc1_
- described _npc2_ as a
- =npc2_. _npc2_ will
- give me my reward if I make it to %g2
- in =2ndparton_ days.
+ _npc1_ me enviou
+ para o ___npc2_ com um _item2_
+ para levar ao _npc2_ num lugar 
+ chamado __npc2_. _npc1_
+ descreveu _npc2_ como um
+ =npc2_. _npc2_ dará
+ para mim minha recompensa se eu chegar a %g2
+ em =2ndparton_ dias.
 
 Message:  1020
-<ce>                    The Thieves Guild has word that
-<ce>                     you are carrying a gemstone of
-<ce>                    considerable value. Hand it over
-<ce>                       and I'll let you off easy.
+<ce>                    A Guilda dos Ladrões soube que 
+<ce>                     você está carregando uma gema de
+<ce>                    valor considerável. Passe ela para cá
+<ce>                       e eu vou te deixar ir em um pedaço.
 
 Message:  1021
-<ce>                    Like taking coin from a child.
-<ce>                     Now, get out of my sight, you
-<ce>                          weak-kneed courier.
+<ce>                    Como tirar doce de criança.
+<ce>                     Agora, saia da minha vista, seu..
+<ce>                          seu carteiro de meia-figa.
 
 
 -- Symbols used in the QRC file:
