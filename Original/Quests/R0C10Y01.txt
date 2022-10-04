@@ -11,82 +11,82 @@ DisplayName: Contraband Trade
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                  If you want work, I am looking for
-<ce>                  someone to take a special _item_ to
-<ce>                  an acquaintance of mine. The reward
-<ce>                 will be extremely liberal. Interested?
+<ce>                  Se você quer trabalho, Estou procurando
+<ce>                  por alguém para levar um special _item_ para
+<ce>                  um conhecido meu. A recompensa será
+<ce>                 extremamente frutífera. Interessado?
 
 RefuseQuest:  [1001]
-<ce>              Really? Too busy, perhaps. That is a shame.
+<ce>              Sério? Muito ocupado, talvez. Que lástima.
 
 AcceptQuest:  [1002]
-<ce>                     Excellent. Here's the _item_.
-<ce>                    Now, _contact_ needs to have it
-<ce>                   in ___contact_ in =queston_ days.
-<ce>               That ought to be just enough time, I hope.
-<ce>                    You will recognize _contact_ --
-<ce>                  go to a place called __contact_ and
-<ce>                       just look for a =contact_.
-<ce>                        Good luck and thank you.
+<ce>                     Excelente. Aqui está o _item_.
+<ce>                    Agora, _contact_ precisa tê-lo
+<ce>                   em ___contact_ em =queston_ dias.
+<ce>               Há de ser tempo suficiente, eu espero.
+<ce>                   Você reconhcerá _contact_ --
+<ce>                  vá para um lugar chamado __contact_ e
+<ce>                       apenas procure  =contact_.
+<ce>                        Boa Sorte e obrigado.
 
 QuestFail:  [1003]
-<ce>             %pcf, you had better get busy with our little
-<ce>                              arrangement.
+<ce>             %pcf, Você deveria é se ocupar da sua
+<ce>                              missão.
 
 QuestComplete:  [1004]
-<ce>                   Ah, good to see you %pcf. And the
-<ce>                 _item_ too. Excellent. Here's a little
-<ce>               trinket for your trouble. I hope you like
-<ce>                      red. Take care of yourself.
+<ce>                   Ah, bom te ver %pcf. E o 
+<ce>                 _item_ também. Excelente. Eis uma 
+<ce>               coisinha pelo seu incômodo. Eu espero que goste
+<ce>                      de vermeleho. Cuide-se.
 
 RumorsDuringQuest:  [1005]
-_questgiver_ is still in the smuggling business, I hear.
+_questgiver_ ainda está no negócio de contrabando, eu ouvi dizer
 <--->
-There's been an extraordinary increase in smuggling lately.
+Aconteceu um enorme aumento nas atividades de contrabando ultimamente.
 
 RumorsPostfailure:  [1006]
-Someone found a very lovely _item_ around here recently.
+Alguém encontrou um lindo _item_ por aqui recentemente.
 <--->
-I hear _questgiver_ is mad as hell at some %ra adventurer.
+Boatos que _questgiver_ está com muito irritado com um tal %ra aventureiro.
 
 RumorsPostsuccess:  [1007]
-Some =contact_ was just here, waving around some _item_.
+Um =contact_ estava agorinha aqui, esbanjando um _item_.
 <--->
-Some jewelry store has reported the theft of a big ruby, I hear.
+Alguma joalheria relatou o roubo de um grande rubi, ouvi dizer.
 
 QuestorPostsuccess:  [1008]
-Ah, %pcf. I hope you're keeping that ruby safe, my friend.
+Ah, %pcf. Eu espero que esteja mantendo o rubi seguro, meu amigo.
 <--->
-Hello again, my young friend.
+Saudações de novo, my jovem amigo.
 
 QuestorPostfailure:  [1009]
-<ce>                   I guess you've come to apologize
-<ce>                   for that botched smuggling affair.
-<ce>                         Apology not accepted.
+<ce>                   Eu espero que tenha vindo se desculpar
+<ce>                   por fracassar naquele nosso acordo.
+<ce>                         Não aceito suas desculpas.
                                      <--->
-<ce>                      You're the %ra who couldn't
-<ce>                   even accomplish a simple delivery,
-<ce>                    eh? Why would I waste my breath
-<ce>                                on you?
+<ce>                      Você é o %ra que não conseguiu
+<ce>                   nem mesmo fazer uma simples entrega,
+<ce>                    né? Por que estou gastando meu tempo
+<ce>                                com você?
 
 QuestLogEntry:  [1010]
 %qdt:
 _questgiver_
- asked me to deliver a _item_ to a contact
- in ___contact_ called _contact_.
- I need to have the _item_ delivered to %g2 at
- __contact_ in =queston_
- days or my reward will be forfeit.
+ ame pediu para entregar um _item_ para um contato
+ em ___contact_ chamado _contact_.
+ Eu preciso ter o _item_ entregue ao %g2 em
+ __contact_ em =queston_
+ dias ou minha recompensa não será dada.
 
 Message:  1020
-<ce>                       Hand over da gem. I knows
-<ce>                      ya got it. Da guild says so.
-<ce>                      If ya don't, I gots ta kill
-<ce>                             ya real slow.
+<ce>                       Passa a joia. Eu sei
+<ce>                      que cê está com ela. O cara da guilda falou.
+<ce>                      Senão, Eu tenho que te trucidar
+<ce>                            bem lento, bem lento...
 
 Message:  1021
-<ce>                      How purdy. Now scram before
-<ce>                           I changes my mind.
+<ce>                      Que graça. Agora dá o fora antes
+<ce>                           que eu mude de ideia.
 
 
 -- Symbols used in the QRC file:
