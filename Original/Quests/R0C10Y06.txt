@@ -11,87 +11,87 @@ DisplayName: The Heirloom
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                I have a _item_ that's very precious to
-<ce>              me. It's been handed down from generation to
-<ce>                generation in my family. Knowing this, a
-<ce>                small pack of orcish bandits have stolen
-<ce>                it and are holding it for ransom. I have
-<ce>                no intention of rewarding them for this
-<ce>                 outrage. On the other hand, I will pay
-<ce>              the full amount of the ransom, _reward_ gold
-<ce>                 pieces to you if you would go to their
-<ce>                   holdout and steal the _item_ back.
-<ce>                               Will you?
+<ce>                Tenho um _item_ que é muito precioso para
+<ce>              mim. Tem sido passado de geração em geração
+<ce>                na minha família. Sabendo disto, um
+<ce>                pequeno bando de bandidos Orcs o roubaram
+<ce>                e estão pedindo resgate. Eu não tenho
+<ce>                intenção de pagá-los por esta 
+<ce>                 insolência. Por outro lado, eu vou pagar
+<ce>              a soma inteira do resgate, _reward_ gold
+<ce>                  moedas para você se você for ao esconderijo
+<ce>                   deles e roubar o _item_ de volta.
+<ce>                               O que me diz?
 
 RefuseQuest:  [1001]
-<ce>                      %oth! You will not do this
-<ce>                  for me? Then I will have to pay the
-<ce>                    ransom. You disappoint me, %pcf.
+<ce>                      %oth! Você não vai fazer isto
+<ce>                  para mim? Então eu deverei pagar o
+<ce>                    resgate. Você me desaponta, %pcf.
 
 AcceptQuest:  [1002]
-<ce>                  Good. Now, I am given to understand
-<ce>                  that the orcs' hideout in in the old
-<ce>                      ___itemdung_. That's where,
-<ce>                  I suppose, they're keeping my _item_
-<ce>               as well. If you're not back in =1stparton_
-<ce>                  days, I'll presume you haven't found
-<ce>                 the _item_, and will give your reward
-<ce>                money to the orcs as ransom. Don't fail
-<ce>                      me on this, %pcf. Good luck.
+<ce>                  Bem. Agora, eu consegui entender que
+<ce>                  o esconderijo dos orcs no velho
+<ce>                      ___itemdung_. É lá,
+<ce>                  eu suponho, que eles estão mantendo o _item_
+<ce>               também. Se você não voltar em =1stparton_
+<ce>                  dias, eu presumirei que você não encontrou
+<ce>                 o _item_, e dará o seu dinheiro como resgate
+<ce>                para aqueles orcs imundos Não falhe comigo,
+<ce>                      falo sério, %pcf. Boa sorte.
 
 QuestFail:  [1003]
-<ce>                      I don't want to talk, %pcf.
-<ce>                      I want my _item_. Go get it.
+<ce>                      Eu não quero falar, %pcf.
+<ce>                      Eu quero   _item_. Vá logo.
 
 QuestComplete:  [1004]
-<ce>                 Somehow I knew you'd find my _item_,
-<ce>                       %pcf. I will happily give
-<ce>                   you the gold I was saving for the
-<ce>                  _item_'s ransom. I cannot thank you
-<ce>                                enough.
+<ce>                 De alguma forma eu sabia que você encontraria o _item_,
+<ce>                       %pcf. Eu ficarei feliz em te dar
+<ce>                   o ouro por salvar o dinheiro do resgate do
+<ce>                  _item_. Mal posso agradecer 
+<ce>                                o suficiente.
 
 RumorsDuringQuest:  [1005]
-There's a bunch of orcs hanging out at ___itemdung_.
+Tem um grupo de orcs se reunindo em ___itemdung_.
 <--->
-Those orcs at ___itemdung_ are figuring they'll get rich off _questgiver_.
+Aqueles orcs em ___itemdung_ estão achando que vão enriquecer por conta de _questgiver_.
 
 RumorsPostfailure:  [1006]
-The orcs at ___itemdung_ cleared out after _questgiver_ paid them off.
+Os orcs em ___itemdung_ se dispersaram depois que _questgiver_  os pagou.
 <--->
-_questgiver_ is apparently furious at some %ra adventurer.
+_questgiver_ está aparentemente raivoso com um avetureiro %ra .
 
 RumorsPostsuccess:  [1007]
-<ce>                 A bunch of orcs are complaining that
-<ce>                 _questgiver_ stole a relic of theirs.
+<ce>                 Um grupo de orcs estão reclamando que
+<ce>                 _questgiver_ roubou uma relíquia deles.
                                      <--->
-<ce>              ___itemdung_ is apparently as not as secure
-<ce>                   a hiding spot as one might think.
+<ce>              ___itemdung_ não está tão seguro em um 
+<ce>                   lugar escondido como alguém pode imaginar.
 
 QuestorPostsuccess:  [1008]
-<ce>           Hello again, my young friend. I haven't forgotten
-<ce>                    about the orc affair, you know.
+<ce>           Olá de novo, meu jovem amigo. Eu não esqueci 
+<ce>                    daquele assunto com os orcs, você se lembra.
                                      <--->
-I hope you haven't spent all my reward gold already, my friend.
+Eu espero que você não tenha gasto todo o meu rico dinherinho de uma vez, meu amigo.
 
 QuestorPostfailure:  [1009]
-<ce>                         Go to Oblivion, %pcf.
-<ce>                   I haven't forgot about you failing
-<ce>                         that mission of mine.
+<ce>                         Vá para o Oblivion, %pcf.
+<ce>                   E eu não me esqueci da sua falha
+<ce>                         naquela minha missão.
 
 QuestLogEntry:  [1010]
 %qdt:
-_questgiver_ of
- __questgiver_ in ___questgiver_
- has sent me to ___itemdung_ to
- find an old family heirloom, a _item_
- stolen by a band of orcs. If I do not
- have it back in _questgiver_'s
- hands in =1stparton_ days, %g will
- pay the ransom, and my reward gold
- will be gone.
+_questgiver_ de
+ __questgiver_ em ___questgiver_
+ me enviou para ___itemdung_  a fim de
+ achar uma antiga herança familiar, um _item_
+ roubado por um bando de orcs. Se eu não o colocar
+ de volta nas mãos de _questgiver_
+ em =1stparton_ dias, %g vai
+ pagar o resgate, e meu ouro de recompensa
+ será perdido.
 
 Message:  1011
-You have found the _item_.
+Você encontrou o item _item_.
 
 
 -- Symbols used in the QRC file:
