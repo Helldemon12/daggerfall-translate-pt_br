@@ -11,110 +11,110 @@ DisplayName: Deadly Diplomacy
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                      You may be aware that I am
-<ce>                        forming an alliance with
-<ce>                       _qgfriend_. To cement our
-<ce>                       friendship, I have agreed
-<ce>                        to arrange the death of
-<ce>                         a consistent threat to
-<ce>                          %g2 -- some sort of
-<ce>                      monster. This foul parasite
-<ce>                        lives in a decrepit old
-<ce>                       place called ___mondung_.
-<ce>                          %g has agreed to pay
-<ce>                    the creature's assassin _reward_
-<ce>                        gold in return. Not too
-<ce>                      bad, I'm sure you'll agree.
-<ce>                        So, does this sound like
-<ce>                       your sort of an adventure,
+<ce>                      Você deve estar ciente que eu 
+<ce>                        estou formando uma aliança com
+<ce>                       _qgfriend_. Para sementar nossa
+<ce>                       amizade, eu concordei
+<ce>                        em arranjar a morte de
+<ce>                         uma ameaça consistente a
+<ce>                          %g2 -- algum tipo de 
+<ce>                      monstro. Este abominável parasita
+<ce>                        vive em um lugar velho e
+<ce>                       decrépito chamado ___mondung_.
+<ce>                          %g concordou em pagar
+<ce>                    o assassinato da criatura _reward_
+<ce>                        de ouro em retorno. Nada 
+<ce>                      mal, estou certo que você concordará.
+<ce>                        Então, te parece como 
+<ce>                       um tipo de aventura para você,
 <ce>                                 %pcn?
 
 RefuseQuest:  [1001]
-<ce>            Really? How inconsiderate of you to leave me in
-<ce>                          the lurch like this.
+<ce>            Não Creio? Que insensibilidade sua me deixar
+<ce>                          a ver navios desta forma.
 
 AcceptQuest:  [1002]
-<ce>                      Recognize a good deal when
-<ce>                        you hear it, eh? I told
-<ce>                      _qgfriend_ that the monster
-<ce>                   would be dead in =1stparton_ days
-<ce>                      or %g could go out and hire
-<ce>                       someone else. So kill the
-<ce>                        creature and get over to
-<ce>                         ___qgfriend_ and find
-<ce>                     %g2 before the time runs out.
+<ce>                      Reconhece um bom trato quando
+<ce>                        você vê um, né? Eu falei para
+<ce>                      _qgfriend_ que o monstro
+<ce>                   estaria morto em =1stparton_ dias
+<ce>                      ou %g pode sair e contratar 
+<ce>                       outro alguém. Então mate a
+<ce>                        criatura e vá já para 
+<ce>                         ___qgfriend_ e encontre
+<ce>                     %g2 antes que o tempo acabe.
 
 QuestFail:  [1003]
-<ce>                     Better get on the road, %pcf.
-<ce>                             Time is short.
+<ce>                     Melhor cair na estrada, %pcf.
+<ce>                             O Tempo é curto.
 
 QuestComplete:  [1004]
-<ce>                 Yes, I've already heard word that our
-<ce>                _giant_ pestilence is at an end. I don't
-<ce>                     know where _questgiver_ found
-<ce>             you, but I'm glad %g did. Here's your _reward_
-<ce>                 gold piece reward. Thank you for your
-<ce>                             service, %pcf.
+<ce>                 Sim, Eu já soube da notícia que nossa 
+<ce>                _giant_ pestilência chegou ao fim. Não sei
+<ce>                    onde _questgiver_ te encontrou
+<ce>               mas sou grato que %g o fez. Aqui as _reward_
+<ce>                 moedas de ouro de recompensa. Obrigado pelo
+<ce>                             seu serviço, %pcf.
 
 RumorsDuringQuest:  [1005]
-There's a monster in ___mondung_ that's been bothering _qgfriend_.
+Há um monstro em ___mondung_ que tem assustado _qgfriend_.
 <--->
-That monster in ___mondung_ has a horde of bats and rats apparently.
+Aquele bicho em ___mondung_ comanda uma horda de ratos e morcegos.
 
 RumorsPostfailure:  [1006]
-Now that monster =giant_ knows its lair is known, it's moved on.
+Agora que aquele monstro =giant_ soube que seu lar é conhecido, ele foi embora.
 <--->
-<ce>           The monster =giant_ has moved out of ___mondung_,
-<ce>                     but still plagues _qgfriend_.
+<ce>           O monstro =giant_ foi embora de ___mondung_,
+<ce>                     mas ainda persegue _qgfriend_.
 
 RumorsPostsuccess:  [1007]
-The curse of =giant_ has finally been wiped from %reg.
+A maldição de =giant_ foi finalmente extirpada de %reg.
 <--->
-A holy %ra warrior has destroyed =giant_, blight of our land.
+Um guerreiro abençoado %ra destruiu =giant_, algoz de nossa terra.
 
 QuestorPostsuccess:  [1008]
-Ah, my friend, =giant_'s nemesis! What may I do for you?
+Ah, meu amigo, o nemesis de =giant_! O que posso fazer por você?
 <--->
-<ce>           You have aided me in forming my alliances, %pcf.
-<ce>                       With what can I help you?
+<ce>           Você me auxiliou na formação de minhas alianças, %pcf.
+<ce>                       Com o que posso ajudá-lo?
 
 QuestorPostfailure:  [1009]
-<ce>                   Your failure to slay that monster
-<ce>                  complicated matters. I have no time
-<ce>                            for such as you.
+<ce>                   Seu fracasso em exterminar o monstro
+<ce>                  complicou tudo. Não tenho tempo
+<ce>                            pra gente como você.
 
 Message:  1011
-<ce>                   =qgfriend_, yes? A possible ally
-<ce>                     of _questgiver_ with a problem
-<ce>                    with that thing in ___mondung_.
+<ce>                   =qgfriend_, sim? Um possível aliado
+<ce>                     de _questgiver_ com um problema
+<ce>                    com aquela coisa em ___mondung_.
                                      <--->
-_qgfriend_ is the blood enemy of =giant_.
+_qgfriend_ é o inimigo jurado de =giant_.
 
 Message:  1012
-You have slain =giant_.
+Você derrotou =giant_.
 
 Message:  1015
 %qdt:
-_questgiver_ of
- ___questgiver_ hired me on behalf
- of an ally, _qgfriend_ of
- ___qgfriend_, to slay a
- monster known only as =giant_, which
- has been terrorizing the land around
- ___mondung_. If the monster is dead
- and I have made it to _qgfriend_ in =1stparton_
- days, I will earn my reward.
+_questgiver_ de
+ ___questgiver_ me contratou em nome
+ de um aliado, _qgfriend_ de
+ ___qgfriend_, para matar o
+ conhecido apenas como =giant_, o qual
+ tem aterrorizad a terra ao redor de
+ ___mondung_. Se o monstro estiver morto
+ e eu chegar a _qgfriend_ em =1stparton_
+ dias, Ganharei minha recompensa.
 
 Message:  1021
-<ce>                   Oh, I almost forgot. I don't know
-<ce>                what kind of monster haunts ___mondung_,
-<ce>                 but the name =giant_ has been rumored
-<ce>                    to be the source of the terror.
+<ce>                   Oh, quase esqueci. Eu não sei
+<ce>                que tipo dem monstro vaga por ___mondung_,
+<ce>                 mas o nome  =giant_ tem sido murmurado
+<ce>                    como uma fonte de terror infernal.
 
 Message:  1030
-<ce>               Who dares disturb =giant_ the Terrible in
-<ce>               %g3 lair?  Your skull will soon hang on my
-<ce>                           wall as a trophy!
+<ce>               Quem ouço perturbar =giant_ o Terrível em
+<ce>               %g3 covil?  Seu crânico logo estará pendurado
+<ce>                           em minha parede como troféu!
 
 
 -- Symbols used in the QRC file:
