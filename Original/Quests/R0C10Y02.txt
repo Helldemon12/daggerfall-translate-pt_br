@@ -11,112 +11,112 @@ DisplayName: Gold Smuggling
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                 I need someone to bring an item to a
-<ce>                    contact of mine in ___contact_.
-<ce>               You will receive an item in return. If you
-<ce>              bring that item back to me, I will happy to
-<ce>                 reward you with _reward_ gold pieces.
-<ce>                             Do you agree?
+<ce>                 Eu preciso que alguém leve um item para
+<ce>                    um contato meu em ___contact_.
+<ce>               Você vai receber algo em troca. Se você
+<ce>              trouxer o que receu para mim, ficarei feliz em
+<ce>                 te recompensar com _reward_ moedas de ouro.
+<ce>                             De acordo?
 
 RefuseQuest:  [1001]
-<ce>                No? What a shame. I was prepared to be
-<ce>                            quite generous.
+<ce>                Não? Que pena. Eu estava preparado para 
+<ce>                            ser bem generoso.
 
 AcceptQuest:  [1002]
-<ce>                   Very good. Take this bar of gold
-<ce>                  and bring it to a certain =contact_
-<ce>                   called _contact_ in a place called
-<ce>                       __contact_ in ___contact_.
-<ce>             You will need to move quickly. If you are not
-<ce>                   at __contact_ in =1stparton_ days,
-<ce>                       _contact_ will leave, and
-<ce>               none of us will be happy. Especially you.
-<ce>                   Very well, good luck to you, %pcf.
+<ce>                   Muito bem. Pegue esta barra de ouro
+<ce>                  e a leve para um certo =contact_
+<ce>                   chamado _contact_ num lugar chamado
+<ce>                       __contact_ em ___contact_.
+<ce>             Você vai precisar ser rápido. Se você não estiver
+<ce>                   en __contact_ em =1stparton_ dias,
+<ce>                       _contact_ irá embora, e
+<ce>               nenhum de nós vai ficar contente. Especialmente você.
+<ce>                   Muito bem, boa sorte para você, %pcf.
 
 QuestFail:  [1003]
-<ce>                You either haven't started yet or else
-<ce>              you've come to apologize your failure. Have
-<ce>                      you, %pcf? Well, I am indeed
-<ce>                disappointed, gravely disappointed. Your
-<ce>               ineptitude has complicated matters. Well,
-<ce>              I suppose I'll know better next time, shan't
-<ce>                      I? Get a move on, %pcf. Now.
+<ce>                Ou você ainda nem começou sua tarefa ou
+<ce>              você veio se desculpar por falhar. É
+<ce>                      isso, %pcf? Então, eu realmente estou
+<ce>                desapontando, profundamente desapontado. Sua
+<ce>               ineptidão tornou tudo pior. Bom,
+<ce>              Eu suponho que devo ter mais cuidado próxima vez,
+<ce>                      não? Vá embora, %pcf. Agora.
 
 QuestComplete:  [1004]
-<ce>                   Excellent, %pcf, you've returned
-<ce>                   with my _item2_ as promised. Your
-<ce>             valor and bravery are great indeed. I am sure
-<ce>             we will appreciate your further service in the
-<ce>                        near future. Thank you.
+<ce>                   Excelente, %pcf, você retornou
+<ce>                   com meu _item2_ como prometido. Seu
+<ce>             valor e bravura são, defato, grandes. Estou certo
+<ce>             que apreciaremos mais serviços seus dentro de 
+<ce>                        um futuro próximo. Obrigado.
 
 RumorsDuringQuest:  [1005]
-<ce>   There was this =contact_ here recently asking if I'd seen a %ra.
+<ce>   Havia este =contact_ aqui recentemente perguntando se vi um %ra.
                                      <--->
-<ce>   Some =contact_ was looking for a %ra with a _item1_ a while back.
+<ce>   Algum =contact_ estava perguntando por um %ra com um _item1_ um tempo atrás.
 
 RumorsPostfailure:  [1006]
-<ce>              Well, _questgiver_ is, I've heard, furious
-<ce>                         at some %ra mercenary.
+<ce>              Bem, _questgiver_ está, pelo que ouvi, furioso
+<ce>                         com um certo %ra mercenário.
                                      <--->
-<ce>             _questgiver_ is still relying on mercenaries
-<ce>                    and I've heard %g's been burned.
+<ce>             _questgiver_ ainda está juntando mercenários
+<ce>                    e ouvir que %g's foi queimada.
 
 RumorsPostsuccess:  [1007]
-<ce>               I hear that _questgiver_ finally got some
-<ce>                           _item2_ %g needed.
+<ce>               Ouvi que _questgiver_ finalmente conseguiu
+<ce>                           _item2_ %g necessário.
                                      <--->
-<ce>        _questgiver_ has been singing the praises of a certain
-<ce>                             %ra mercenary.
+<ce>        _questgiver_ tem lançado elogios dirigidos a um
+<ce>                             %ra mercenário.
 
 QuestorPostsuccess:  [1008]
-Hello again, my young friend. I haven't forgotten your services.
+Olá de novo, meu jovem amigo. Eu não me esqueci dos seus serviços.
 <--->
-Ah, %pcf. It's a pleasure to see you again.
+Ah, %pcf. É um prazer revê-lo.
 
 QuestorPostfailure:  [1009]
-<ce>                       Why, it's the inept %ra.
-<ce>               You have a lot of nerve coming back here.
+<ce>                       Pelos céus, é aquele %ra inapto.
+<ce>               Você tem muita coragem mostrando a cara aqui.
                                      <--->
-<ce>                      Well, if it isn't the inept
-<ce>                      courier. Why don't you crawl
-<ce>                             away now, hmm?
+<ce>                      OLha só, se não é aquele meu inútil
+<ce>                      carteiro. Você não vem engatilhando
+<ce>                             para onge agora, hein?
 
 
 QuestLogEntry:  [1010]
 %qdt:
 _questgiver_
- of ___questgiver_ sent me to a
- contact _contact_ of ___contact_
- to deliver a bar of gold to this
- =contact_'s base in __contact_.
- The gold needs to be in %g3 hands in
- =1stparton_ days for me to get my due
- reward.
+ de ___questgiver_ me enviou a um
+ contato _contact_ de ___contact_
+ para entregar um barra de ouro para a base de
+ =contact_ em __contact_.
+ O ouro precisa estar  nas nãos de  %g3 em
+ =1stparton_ dias para que eu possa receber minha
+ recompensa devida.
 
 Message:  1011
 %qdt:
-I delivered the gold to
- _contact_, who gave me a _item2_
- to take back to _questgiver_.
+Eu entreguei o ouro para
+ _contact_, que me deu um_item2_
+ para levar de volta para _questgiver_.
 
 Message:  1020
-<ce>                      That gold bar must be quite
-<ce>                       heavy. How about I relieve
-<ce>                      you of it? Just hand it over
-<ce>                          and I'll let you go.
+<ce>                      Aquela barra de ouro deve ser
+<ce>                       pesada. Que tal se eu lhe 
+<ce>                      aliviar o peso? Passe ela pra cá
+<ce>                          e eu te deixarei ir.
 
 Message:  1021
-<ce>                     Such a brave little courier.
-<ce>                      I'll be sure to tell all my
-<ce>                      friends how helpful you can
-<ce>                              be to them.
+<ce>                     Que carteirinho mais corajoso.
+<ce>                      POde deixar que vou contar a todos
+<ce>                      os meus amigos sobre o quão útil
+<ce>                              você pode ser pra eles.
 
 Message:  1030
-<ce>                     Ah, you must be the courier.
-<ce>                    Excellent, excellent.  Now, take
-<ce>                   this _item2_ back to _questgiver_
-<ce>            immediately, and %g will reward you as promised.
-<ce>                  A pleasure doing business with you,
+<ce>                     Ah, você deve ser o carteiro.
+<ce>                    Excelenet, excelente. Agora, leve
+<ce>                   este _item2_ de volta para _questgiver_
+<ce>            immeditamente, e %g te será dado de recompensa.
+<ce>                  Um prazer fazer negócio com você,
 <ce>                                 %pcf!
 
 
