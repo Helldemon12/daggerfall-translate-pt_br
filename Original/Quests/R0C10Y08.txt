@@ -11,107 +11,107 @@ DisplayName: Theft from a Temple
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                      If you could, %pcf, I am in
-<ce>              need of assistance from someone I know isn't
-<ce>              a complete buffoon. I sent another mercenary
-<ce>              out to deliver a small package to a temple,
-<ce>            nothing of great value, but damned if it wasn't
-<ce>               stolen. Well, at least this idiotic hired
-<ce>                hand paid attention to where the bandits
-<ce>                   went. Do you think you could help
-<ce>                     me out and get my parcel back?
+<ce>                      Se você puder, %pcf, Eu estou
+<ce>              precisando de ajuda de alguém que eu saiba que não
+<ce>              é um completo bobo. Eu enviei um outro mercenário
+<ce>              para entregar um pequeno pacote a um templo,
+<ce>            nada de grande valor, mas pode apostar que também foi
+<ce>               roubado. Então, pelo menos este mercenário burro
+<ce>                prestou atenção de para onde foram todos os 
+<ce>                   bandidos. Você acha que poderia me ajudar
+<ce>                     em troca de uma parcela do valor?
 
 RefuseQuest:  [1001]
-<ce>                 %oth, I was afraid you were going to
-<ce>              say that. Ah well, I suppose that is better
-<ce>                      than saying yes and failing.
+<ce>                 %oth, eu temia que você fosse dizer 
+<ce>               isto. Ah bom, suponho que seja melhor que
+<ce>                     dizer sim e fracassar da mesma forma.
 
 AcceptQuest:  [1002]
-<ce>                      Thank you in advance, %pcf.
-<ce>              Now, the complications. The bandits sold the
-<ce>                    _item_ to a temple, _itemplace_
-<ce>                     in __itemplace_. It apparently
-<ce>               has some sort of religious significance to
-<ce>              them. In order to avoid embarassment, I need
-<ce>                   you to steal the _item_ out of the
-<ce>                  temple and get it to _transporter_.
-<ce>                  You'll find %g2 at _inn_ in __inn_.
-<ce>           The _item_ must be in the moronic _transporter_'s
-<ce>          hands within =1stparton_ days; and you must be back
-<ce>            here from __inn_ in =2ndparton_ days after that,
-<ce>          understand?  Not a lot of time. I'm counting on you,
-<ce>                     %pcf. Good luck and farewell.
+<ce>                      Desde já agradeço, %pcf.
+<ce>              Agora, as complicações. Os bandidos venderam o
+<ce>                    _item_ para um templo, _itemplace_
+<ce>                     em __itemplace_. Ele aparentemente 
+<ce>               tem alguma relevância religiosa atrelada para
+<ce>              eles. para evitar um constragimento, eu preciso que
+<ce>                   você roube o _item_ daquele 
+<ce>                  templo e o leve para o _transporter_.
+<ce>                  Você encontrará %g2 no _inn_ em __inn_.
+<ce>           O _item_ tem que estar no responsável pelo transporte
+<ce>          dentro de  =1stparton_ dias; e você tem que voltar 
+<ce>            aqui dp __inn_ em =2ndparton_ dias depois disso,
+<ce>          entendeu?  Não é muito tempo. Estou contando contigo,
+<ce>                     %pcf. Boa sorte e passar bem.
 
 QuestFail:  [1003]
-<ce>              Yes? You didn't expect a reward before you
-<ce>                 actually did anything, did you, %pcf?
+<ce>              Sim? Você não esperava uma recompensa se
+<ce>                 você não fez nada, certo, %pcf?
 
 QuestComplete:  [1004]
-<ce>                   %oth, welcome back, %pcf. I don't
-<ce>             know why I hired that mental deficient in the
-<ce>              first place. Well, here's your _reward_ gold
-<ce>                   pieces. You certainly deserve it.
+<ce>                   %oth, bem vindo de volta, %pcf. Eu não
+<ce>             sei porque eu contratei aquele retardado mental em
+<ce>              primeiro lugar. Bem, eis as _reward_ 
+<ce>                   moedas de ouro. Você certamente mereceu.
 
 RumorsDuringQuest:  [1005]
-_itemplace_ is tightening up their security for some reason.
+_itemplace_  aprimorando a sua seugrança por alguma razão.
 <--->
-For some reason, _itemplace_ is more worried about thieves than usual.
+Por alguma razão, _itemplace_ está mais preocupado com bandidos que o usual.
 
 RumorsPostfailure:  [1006]
-_itemplace_ recovered some kind of _item_ that was stolen.
+_itemplace_ recuperou algum tipo de _item_ que foi roubado.
 <--->
-_itemplace_ recovered their stolen _item_ and moved it to a safer place.
+_itemplace_ reaveu seu _item_  roubado e o levou a um lugar mais seguro.
 
 RumorsPostsuccess:  [1007]
-Some kind of valuable _item_ was stolen from _itemplace_.
+Algum tipo de  _item_ foi roubado de _itemplace_.
 <--->
-It's getting so even temples are having break-ins. Shocking.
+Está ficando tão complicado que até os templos têm sido assaltados. Absurdo.
 
 QuestorPostsuccess:  [1008]
-Fearfully good to see you again. How may I help you?
+Assombramente bom de te rever. Como posso te ajudar?
 <--->
-You're the %ra who helped me with that unpleasantness with the temple, yes?
+Você é o %ra que me ajudou com toda aquela inconveniência com o tempo, né?
 
 QuestorPostfailure:  [1009]
-<ce>                        %oth, it's you. Come to
-<ce>                  apologize for your sloppy questing,
-<ce>                     I suppose. Well, don't bother.
-<ce>                          I haven't the time.
+<ce>                        %oth, é voc~e. Vindo se 
+<ce>                  desculpar pela sua aventura desleixada,
+<ce>                     imagino. Bem, deixa pra lá.
+<ce>                          Não tenho tempo pra isso.
 
 QuestLogEntry:  [1010]
-<ce>                     Thank %god you arrived, %pcf.
-<ce>                   Listen, hurry back to _questgiver_
-<ce>                 -- %g will pretend to forget you ever
-<ce>                 existed and you won't get a copper if
-<ce>                  you're not back in =2ndparton_ days.
-<ce>                      Believe me, I know %g3 ways.
+<ce>                     Graças a %god você chegou, %pcf.
+<ce>                   Escute, se aprece para _questgiver_
+<ce>                 -- %g fingirá esquecer que você sequer
+<ce>                 existe  e você não receberá nem bronzese
+<ce>                  você não está de volta em =2ndparton_ dias.
+<ce>                      Creia-me, eu sei o jeito de %g3.
 
 Message:  1011
-<ce>           _transporter_ is a nervous-looking =transporter_
-<ce>                   with connections to _questgiver_.
+<ce>           _transporter_ é um =transporter_ de olhar nervoso 
+<ce>                   com conexões com _questgiver_.
                                      <--->
-A =transporter_ -- %g's %di of here at __transporter_.
+Um =transporter_ -- %g's %di daqui em __transporter_.
 
 Message:  1012
-<ce>                        You pick up the _item_.
-<ce>                    Now to get it to _transporter_.
+<ce>                        Você pegou o _item_.
+<ce>                    Agora leve-o para o _transporter_.
 
 Message:  1015
 %qdt:
 _questgiver_
- has sent me to _itemplace_
- in __itemplace_ to steal
- a certain _item_, then deliver it to
- _transporter_ in __inn_
- at a place called _inn_.
- I have =1stparton_ days to make the delivery.
- Finally, I have to return for my reward.
- I have =2ndparton_ days to travel from
- __inn_ to __questgiver_,
- _questgiver_'s home in ___questgiver_.
+ me enviou para _itemplace_
+ em __itemplace_ para roubar
+ um tal _item_, depois entregá-lo para
+ _transporter_ em __inn_
+ num lugar chamado _inn_.
+ Eu tenho =1stparton_ dias para realizar a entrega.
+ Finalmente, eu tenho que voltar para minha recompensa.
+ Disponho de =2ndparton_ dias para viajar de 
+ __inn_ até __questgiver_,
+ casa de _questgiver_ em ___questgiver_.
 
 Message:  1020
-<ce>           Stop thief!  Vile desecrator of our holy _item_!
+<ce>           Pare lá ladrão!  Vil profanador do sagrado _item_!
 
 
 -- Symbols used in the QRC file:
