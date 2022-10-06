@@ -11,110 +11,109 @@ DisplayName: The Procurer
 QRC:
 
 QuestorOffer:  [1000]
-<ce>              Yes, I do have something for an able-bodied
-<ce>               young %ra. It's nothing special -- just a
-<ce>            simple errand, but it'll mean an extra _reward_
-<ce>                        gold to you. Interested?
+<ce>              Sim, eu tenho algo para um forte e saudável
+<ce>               jovem %ra. Nada de especial -- apenas uma
+<ce>            tarefa simples, mas vai implicar em _reward_
+<ce>                        em ouro para você. Que acha?
 
 RefuseQuest:  [1001]
-<ce>                   %oth, I suppose you wanted me to
-<ce>             give you _reward_ gold for nothing. Or perhaps
-<ce>                  you were hoping for something really
-<ce>                   interesting? Well, you'll have to
-<ce>                          wait for that, %pcf.
+<ce>                   %oth, eu sonho que você queria que
+<ce>             eu te desse _reward_ de ouro por nada. Ou, quem 
+<ce>                  sabe, você queria algo realmente 
+<ce>                   interessante? Bem, você terá que
+<ce>                          esperar por isso, %pcf.
 
 AcceptQuest:  [1002]
-<ce>               Good. I have a ... procurer in my employ.
-<ce>                       Distinctive looking, =spy_
-<ce>                      going by the name of _spy_.
-<ce>                     Well, _spy_'s found a special
-<ce>                       _item_ of interest to me,
-<ce>                 but the former owners have %g2 trapped
-<ce>               somewhere in __hidingplace_. My hands are
-<ce>                 tied officially, but you could kindly
-<ce>                   go to __hidingplace_, find _spy_,
-<ce>                       and bring me my _item_. Of
-<ce>               course, if you're not back in =1stparton_
-<ce>            days, your _reward_ gold reward will have to be
-<ce>                forfeit. I'm sure you understand. Well,
-<ce>                 you ought to be on your way. Goodbye.
+<ce>               Ótimo. Eu tenho um ... procurador sob meu emprego.
+<ce>                       Olhar distintivo, =spy_
+<ce>                      que atende pelo nome _spy_.
+<ce>                     Bom, _spy_ encontrou um
+<ce>                       _item_ especial de meu interesse,
+<ce>                 mas seus antigos donos aprisionaram %g2 
+<ce>               em algum lugar em __hidingplace_. Encontro-me
+<ce>                 incapaz oficialmente, mas você pode gentilmente
+<ce>                    ir até __hidingplace_, encontrar _spy_,
+<ce>                       e me trazer meu _item_. Claro,
+<ce>               se não estiver de volta em =1stparton_
+<ce>            dias, seus _reward_ de ouro como recompensa serão
+<ce>                expropriados. Estou certo que entende porquê. Bom,
+<ce>                 você já deve ir a caminho para lá. Até mais.
 
 QuestFail:  [1003]
-<ce>                      %pcf, you're back, which is
-<ce>                    pleasant, but without my _item_
-<ce>                    which is not so pleasant. Is the
-<ce>                    assignment too difficult for you
-<ce>                        to understand? Go get my
-<ce>                               _item_ and
-<ce>                             bring it here.
+<ce>                      %pcf, você voltou, o que é
+<ce>                     agradável, mas sem meu _item_
+<ce>                    o que não é nem um pouco agradável.
+<ce>                    Essa tarefa é tão dificíl que você não
+<ce>                        consiga entender? Vai logo e pegue meu
+<ce>                               _item_ e
+<ce>                             traga-o para cá.
 
 QuestComplete:  [1004]
-<ce>                       Ah, marvelous. My _item_
-<ce>                   returned promptly with minimum of
-<ce>                   incident. Very good. Here is your
-<ce>                         _reward_ gold reward.
+<ce>                       Ah, espetacular. Meu _item_
+<ce>                   está de volta prontamente sem nem um mínimo
+<ce>                   incidente. Muito Bom. Aqui seus
+<ce>                         _reward_ em ouro como recompensa.
 
 RumorsDuringQuest:  [1005]
-They're scouring __hidingplace_, looking for a rare stolen _item_.
+Estão vasculhando __hidingplace_, a procura de um _item_ raro perdido.
 <--->
-There was a rare _item_ stolen from a private collection recently.
+Havia um _item_ roubado de uma coleção privada, recentemente.
 
 RumorsPostfailure:  [1006]
-They recovered that jewelry, and the guilty party was summarily executed.
+Eles recuperaram a joia, e os culpados foram sumamente executados.
 <--->
-The jewelry that they were looking for turned up eventually.
+A joia que eles estavam procurando foi enfim encontrada.
 
 RumorsPostsuccess:  [1007]
-They never did find that jewelry. The guards have given up.
+Nunca encontrará a joia. Os guardas desistiram.
 <--->
-<ce>            There was supposed to be some kind of rare gem
- hidden in that stolen jewelry.
+<ce>            Era para ter uma espécie de mineral raro oculto 
+ dentro daquela joia.
 
 QuestorPostsuccess:  [1008]
-Ah, my young champion. Still in the mercenary business, I see. That's good.
+Ah, my jovem campeão. Ainda no trabalhando como mercenário, entendo. Ótimo.
 <--->
-What may I do for you, %pcf? I haven't forgotten what you did for me.
+O que posso fazer por você, %pcf?  Não esqueci o que fez por mim.
 
 QuestorPostfailure:  [1009]
-I don't see why I should do anything for someone who failed me, but go on.
+Eu não vejo razão para qualquer coisa por alguém que falhou comigo, mas prossiga.
 <--->
-<ce>                    Rather plucky of you to return
-<ce>                   after failing to get my property.
-<ce>                             I hate pluck.
+<ce>                    Um tanto ousado da sua parte voltar
+<ce>                   depois de falhar em pegar minha propriedade.
+<ce>                            Detesto ousadias.
 
 QuestLogEntry:  [1010]
-<ce>            _questgiver_ sent you?  %oth, when I heard you
-<ce>             coming, I was afraid they had finally tracked
-<ce>              me down.  I'm glad you found me first, %pcf!
-<ce>                       Here's the _item_. Take it
-<ce>                          back to _questgiver_
-<ce>                  right away -- %g needs it in just a
-<ce>                few days.  And be careful -- the former
-<ce>               owner's agents are turning __hidingplace_
-<ce>              upside down looking for this little beauty.
+<ce>            _questgiver_  te enviou?  %oth, quando ouvi que 
+<ce>             você vinha, temia que houvessem finalmente me 
+<ce>              rastreado.  estou feliz em vê-lo, %pcf!
+<ce>                       Eis o _item_. Leve-o
+<ce>                         de volta para _questgiver_
+<ce>                 alguns dias.  E cuidado -- os agentes do
+<ce>               antigo dono estão por toda parte em __hidingplace_
+<ce>              buscando esta pequena e valorosa belezura.
 
 Message:  1011
-I hear that =spy_ is over %di of here -- around _hidingplace_.
+Escutei que =spy_ está em %di daqui -- próximo de _hidingplace_.
 <--->
-A nervous =spy_? I've seen %g2 near _hidingplace_.
+Um =spy_ nervoso? Eu vi um %g2 perto de _hidingplace_.
 
 Message:  1015
 %qdt:
-_questgiver_ of
+_questgiver_ de
  __questgiver_, ___questgiver_,
- has sent me to get a special
- _item_ from someone by the name
- of _spy_, who's hiding out somewhere in
- __hidingplace_.  The real owners of the _item_
- may try to stop me, but I must have
- the _item_ in _questgiver_'s
- hands in =1stparton_ days, or I won't get my
- _reward_ gold piece reward.
+ me enviou para buscar um certo
+ _item_ de alguém com o nome
+ de _spy_, que está se escondendo em algum lugar em
+ __hidingplace_.  Os verdadeiros donos do _item_
+podem tentar me parar, mas tenho que ter o
+ the _item_ para _questgiver_
+ em =1stparton_ dias, ou não receberei minha 
+recompensa de _reward_ moedas .
 
 Message:  1020
-<ce>               Thanks for your help, %ra.  We knew you'd
-<ce>                lead us right to the _item_.  Now here's
-<ce>                         your payment -- death!
+<ce>               Obrigado pela ajuda, %ra.  Sabíamos que nos
+<ce>                levaria exatamente até o _item_.  Agora o teu
+<ce>                         pagamento -- a morte!
 
 
 -- Symbols used in the QRC file:
