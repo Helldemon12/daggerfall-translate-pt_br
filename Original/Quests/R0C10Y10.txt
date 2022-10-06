@@ -11,76 +11,76 @@ DisplayName: Weapon Supply
 QRC:
 
 QuestorOffer:  [1000]
-<ce>               If you are interested in earning _reward_
-<ce>                    gold for doing nothing more than
-<ce>                    delivering a little parcel to an
-<ce>                      agent of mine, speak up now.
+<ce>               Se você está interessado em ganhar _reward_
+<ce>                    de ouro fazendo nada mais que
+<ce>                    entregar um pacote para um
+<ce>                      agente meu, fale agora.
                                      <--->
-<ce>                I could use the services of someone of
-<ce>               moderate talent, above average discretion,
-<ce>                 and willingness to assume the position
-<ce>                  of a lowly courier for _reward_ gold
-<ce>                      pieces. Are you that person?
+<ce>                Eu pode usar os serviços de um
+<ce>               talento moderado, acima da discrição média,
+<ce>                 e força de vontade para assumir uma posição
+<ce>                  de um pobre entregador por _reward_ moedas
+<ce>                      de ouro. Você é essa pessoa?
 
 RefuseQuest:  [1001]
-<ce>                 Really? Too busy, perhaps? Your loss.
+<ce>                 Desculpa? Muito ocupado, quiçá? Está perdendo.
 
 AcceptQuest:  [1002]
-<ce>                    Excellent. Here's the _weapon_.
-<ce>                    Now, _contact_ needs to have it
-<ce>                      in ___contact_ in =queston_
-<ce>            days. That ought to be just enough time, I hope.
-<ce>                    You will recognize _contact_ --
-<ce>                       just look for a =contact_.
-<ce>                        Good luck and thank you.
+<ce>                    Excelente. aqui a _weapon_.
+<ce>                    Agora, _contact_ preciso disso 
+<ce>                      em ___contact_ em =queston_
+<ce>            dias. Há de ser tempo suficiente, eu espero.
+<ce>                    Você reconhecerá _contact_ --
+<ce>                       apenas procure por um =contact_.
+<ce>                        Boa sorte e lhe agradeço.
 
 QuestFail:  [1003]
-<ce>             Couldn't accomplish a simple little delivery,
-<ce>                %pcf? I certainly hope you weren't still
-<ce>                          expecting a reward.
+<ce>             Não consegue fazer uma simples entrega,
+<ce>                %pcf? Eu certamente espero que você não 
+<ce>                         esteja querendo algumas moedas por nada.
 
 QuestComplete:  [1004]
-<ce>                   Ah, good to see you %pcf. And the
-<ce>                  _weapon_ too. Excellent. Here's the
-<ce>                _reward_ gold pieces I believe you were
-<ce>                       promised by _questgiver_.
+<ce>                   Ah, que bom te ver %pcf. E a
+<ce>                  _weapon_ também. Excelente. Aqui as
+<ce>                _reward_ moedas de ouro eu acredito que 
+<ce>                       isto foi prometido por _questgiver_.
 
 RumorsDuringQuest:  [1005]
-_questgiver_ is still in the smuggling business, I hear.
+_questgiver_ ainda está no negócio  do contrabnado, pelo que ouvi.
 <--->
-There's been an extraordinary increase in smuggling lately.
+Houve um aumento extraordinário na quantidade contrabando ultimamente.
 
 RumorsPostfailure:  [1006]
-Someone found a very lovely _weapon_ around here recently.
+Alguém encontrou uma _weapon_ linda por aqui recentemente.
 <--->
-I hear _questgiver_ is mad as hell at some %ra adventurer.
+Ouvi dizer que _questgiver_ está irado com um %ra aventureiro.
 
 RumorsPostsuccess:  [1007]
-Someone named _contact_ has been waving around some _weapon_.
+Alguém chamado _contact_ tem esbanjado uma _weapon_ por aí.
 <--->
-The smuggling of religious artifacts is apparently the big new crime.
+O contrabando de artefatos religiosos aparentemente é o novo grande crime.
 
 QuestorPostsuccess:  [1008]
-Oh, it's my old courier. How charming. How may I help you?
+Oh, é meu velho entregador. Que encantador. Como posso lhe ajudar?
 <--->
-You look familiar. You made a little delivery for me recently, didn't you?
+Você parece familiar. Você fez uma entrega para mim recentemente, não é?
 
 QuestorPostfailure:  [1009]
-<ce>                     You look almost exactly like
-<ce>                      a %ra who failed a delivery
-<ce>                     for me. Curious. Go away now.
+<ce>                     Você parece quase exatamente como
+<ce>                      um %ra que fracassou numa entrega
+<ce>                     a meu mando. Curioso. Vá embora agora.
 
 QuestLogEntry:  [1010]
 %qdt:
- _questgiver_ of
+ _questgiver_ de
  __questgiver_, ___questgiver_
- has sent me to deliver a _weapon_
- to an ally named _contact_.
- I need to have the _weapon_ in
- _contact_'s hands in =queston_
- days. The =contact_
- can apparently be found in a place called
- __contact_ in ___contact_.
+ me enviou para entregar a _weapon_
+a uma aliado chamado _contact_.
+eu preciso colocar a _weapon_ nas mãos de
+ _contact_ em =queston_
+ dias. O =contact_
+ pode aparentemente ser encontrado num lugar chamado
+ __contact_ em ___contact_.
 
 
 -- Symbols used in the QRC file:
